@@ -21,11 +21,11 @@ module publisher::counter_test {
         // incr
         let account = get_account();
         counter::incr(&account);
-        assert!(counter::get_count(addr) == 1, 0);
+        assert!(counter::get_count(addr) == 1, 1);
 
         // incr_by
         let account = get_account();
         counter::incr_by(&account, 2);
-        assert!(counter::get_count(addr) == 3, 0);
+        assert!(counter::get_count(addr) == 3, 2);
     }
 }
