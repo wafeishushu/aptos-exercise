@@ -22,6 +22,7 @@ module publisher::counter {
         counter.value = counter.value + 1;
     }
 
+    // upgraded
     public fun incr_by(account: &signer, increasement: u64) acquires Counter {
         let counter = borrow_global_mut<Counter>(signer::address_of(account));
         counter.value = counter.value + increasement;

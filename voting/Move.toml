@@ -1,16 +1,14 @@
 [package]
-name = "counter"
-version = "0.0.2"
+name = "voting"
+version = "0.0.1"
 # upgradeable
 upgrade_policy = "compatible"
 
 [addresses]
-publisher="_"
+my_addrx="_"
 
 [dev-addresses]
-# 先生成账户
-# 这个账户专门放counter合约
-publisher="0xf72393cbd63a3e3c476c067c761b6f57d3f44943cd720290f8584064cf53b26d"
+my_addrx="0xf72393cbd63a3e3c476c067c761b6f57d3f44943cd720290f8584064cf53b26d"
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
