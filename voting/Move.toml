@@ -8,7 +8,7 @@ upgrade_policy = "compatible"
 my_addrx="_"
 
 [dev-addresses]
-my_addrx="0xf72393cbd63a3e3c476c067c761b6f57d3f44943cd720290f8584064cf53b26d"
+my_addrx="0xc9894f0373c00ea85750edc57c10dce4e34ee0592a84cca81a7b1b0665308911"
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
